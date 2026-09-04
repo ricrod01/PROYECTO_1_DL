@@ -1,3 +1,6 @@
+CANDIDATOS AL PROYECTO FINAL:
+  Se conservará el modelo C, el cual está compuesto de tras submodelos: CNN-1D, LSTM y Random Forest. Esto se ha hecho con el fin de que cada submodelo estará especializado en resolver un tipo de anomalía. Uno de los limitantes de este modelo es que el costo de entrenamiento es el segundo mayor de los tres modelos optimizados respecto al umbral. 
+
 USO DE IA EN EL PROYECTO: 
   El uso de IA en el presente proyecto ha quedado restringido principalmente al mejoramiento del código implementado.
   También se ha usado para el arreglo de errores de sintaxis y mantenimiento de una estructura coherente de los códigos.
