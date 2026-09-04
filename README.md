@@ -32,4 +32,4 @@ DECISIONES TÉCNICAS IMPORTANTES:
 
 CANDIDATO AL PROYECTO FINAL:
 
-Se conservará el modelo C, el cual está compuesto de tras submodelos: CNN-1D, LSTM y Random Forest. Esto se ha hecho con el fin de que cada submodelo estará especializado en resolver un tipo de anomalía. Uno de los limitantes de este modelo es que el costo de entrenamiento es el segundo mayor de los tres modelos optimizados respecto al umbral. 
+Se conservará el modelo C, el cual está compuesto de tras submodelos: CNN-1D, LSTM y Random Forest. Esto se ha hecho con el fin de que cada submodelo estará especializado en resolver un tipo de anomalía y fue el que mejores resultados presentó para predecir anomalías y no anomalías. En el análisis de costos fue el segundo menor de los tres modelos optimizados respecto al umbral óptimo en el conjunto de entrenamiento y el menor de todos, con gran diferencia, al aplicarlo al conjunto de prueba. 
