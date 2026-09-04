@@ -1,7 +1,19 @@
-CANDIDATOS AL PROYECTO FINAL:
+CANDIDATO AL PROYECTO FINAL:
+
   Se conservará el modelo C, el cual está compuesto de tras submodelos: CNN-1D, LSTM y Random Forest. Esto se ha hecho con el fin de que cada submodelo estará especializado en resolver un tipo de anomalía. Uno de los limitantes de este modelo es que el costo de entrenamiento es el segundo mayor de los tres modelos optimizados respecto al umbral. 
 
+REPRODUCCIÓN:
+
+  1. Se ha usado Python 3.12. con las siguientes librerías: NumPy, Matplotlib.pyplot, torch, sklearn, TensorFlow, Pandas, Pathlib y Joblib
+  2. La semilla usada ha sido seed=0
+  3. El conjunto de datos utilizados contaba con 100,000 datos, de los cuales 89,936 eran transacciones normales, 3,994 eran de anomalías debido al orden no congruente, 3,611 eran de anomalías debido a transacciones cortas (muchas transacciones en poco tiempo) y 2,459 eran anomalías debido a compras en establecimientos no comunes para el cliente.
+
+VERSIONES
+
+  1. Los modelos se encuentran en los archivos .pckl. En el modelo B se ha usado un torch.pth, en el que han sido guardados los pesos de la red.
+
 USO DE IA EN EL PROYECTO: 
+
   El uso de IA en el presente proyecto ha quedado restringido principalmente al mejoramiento del código implementado.
   También se ha usado para el arreglo de errores de sintaxis y mantenimiento de una estructura coherente de los códigos.
 
