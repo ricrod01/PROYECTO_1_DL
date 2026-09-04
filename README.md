@@ -11,6 +11,7 @@ REPRODUCCIÓN:
 VERSIONES
 
   1. Los modelos se encuentran en los archivos .pckl. En el modelo B se ha usado un torch.pth, en el que han sido guardados los pesos de la red.
+  2. Las versiones de los modelos consiste principalmente en la actualización del umbral, con el fin de reducir los costos.
 
 USO DE IA EN EL PROYECTO: 
 
